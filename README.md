@@ -8,7 +8,7 @@ require 'lib/DateTool.php';
 $days = DateTool::count('2017-08-31 18:00', '2017-09-30 18:00', DateTool::DAYS);
 
 // Calculate the number of week days between two dates
-$week_days = DateTool::countWeekdays('2017-08-31 18:00', '2017-09-30 18:00', DateTool::WEEKDAYS);
+$week_days = DateTool::countWeekdays('2017-08-31 18:00', '2017-09-30 18:00');
 
 // Calculate the number of complete weeks between two dates
 $weeks = DateTool::count('2017-08-31 18:00', '2017-09-30 18:00', DateTool::WEEKS);
